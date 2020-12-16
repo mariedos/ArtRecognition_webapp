@@ -10,7 +10,6 @@ import urllib.request, io
 logo_html="<img src='logo.png' />"
 #st.markdown(logo_html, unsafe_allow_html=True)
 #st.title('API - Artists and Paintings Identifier')
-st.markdown('TEST MARIE')
 st.image('logo.png')
 
 from streamlit_cropper import st_cropper
