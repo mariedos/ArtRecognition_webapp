@@ -7,10 +7,10 @@ import os
 import time
 import urllib.request, io
 
-logo_html="<img src='logo.png' />"
-#st.markdown(logo_html, unsafe_allow_html=True)
+logo_html="<img align='center' src='logo.png' />"
+st.markdown(logo_html, unsafe_allow_html=True)
 #st.title('API - Artists and Paintings Identifier')
-st.image('wetransfer-b298bc/logo_small_bandeau_blanc_sans_cadre.png')
+#st.image('wetransfer-b298bc/logo_small_bandeau_blanc_sans_cadre.png')
 
 from streamlit_cropper import st_cropper
 st.set_option('deprecation.showfileUploaderEncoding', False)
