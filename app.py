@@ -205,7 +205,7 @@ if uploaded_file is not None:
             picture_2_title = response.json()["picture_name_2"]
             picture_3_title = response.json()["picture_name_3"]
 
-            similaires_html=f"<table style='border-width: 0px solid white'><tr style='border-width: 0px solid white'><td style='border-width: 0px solid white'><i>{picture_2_artist_name}</i><br/><img width='224' height='224' src='{picture_2_url}' title='Name of the work : {picture_2_title}' /></td><td style='border-width: 0px solid white'><i>{picture_3_artist_name}</i><br/><img width='224' height='224' src='{picture_3_url}' title='Name of the work : {picture_3_title}' /></td></tr></table>"
+            similaires_html=f"<table style='border-width: 0px solid white'><tr style='border-width: 0px solid white'><td align='center' style='border-width: 0px solid white'><b>{picture_2_artist_name}</b><br/><img width='224' height='224' src='{picture_2_url}' title='Name of the work : {picture_2_title}' /><br/><i>{picture_2_title}</i></td><td align='center' style='border-width: 0px solid white'><b>{picture_3_artist_name}</b><br/><img width='224' height='224' src='{picture_3_url}' title='Name of the work : {picture_3_title}' /><br/><i>{picture_3_title}</i></td></tr></table>"
             st.markdown(similaires_html, unsafe_allow_html=True)
 
             # ----------------------------------------------------------
