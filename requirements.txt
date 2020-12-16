@@ -6,4 +6,4 @@ numpy
 streamlit
 python-multipart
 requests
-streamlit_crooper
+streamlit_cropper
