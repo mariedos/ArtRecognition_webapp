@@ -120,7 +120,7 @@ if uploaded_file is not None:
     }
 
     #url = "https://artrecognition-api-2zh2rywjwq-ew.a.run.app/predict"
-    url = 'http://localhost:8000/predict'
+    url = 'https://artrecognition-api1-2zh2rywjwq-ew.a.run.app/predict'
 
     response = requests.post(url, files=multipart_form_data)
     response_code = response.status_code
