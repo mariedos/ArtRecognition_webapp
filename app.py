@@ -13,7 +13,7 @@ import urllib.request, io
 #url = 'http://localhost:8000/predict' #en local
 url = 'https://artrecognition-api1-2zh2rywjwq-ew.a.run.app/predict'
 
-#st.set_page_config(page_title="Artists and Paintings Identifier", page_icon=None, layout='centered', initial_sidebar_state='auto')
+st.set_page_config(page_title="Artists and Paintings Identifier", page_icon='Logo.png', layout='centered', initial_sidebar_state='auto')
 
 #logo_html="<img src='logo.png' align='center'/>"
 #st.markdown(logo_html, unsafe_allow_html=True)
